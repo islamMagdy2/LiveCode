@@ -1,0 +1,211 @@
+body {
+    margin: 0px;
+    font-family: serif;
+}
+
+/*________________________________________*/
+
+
+.row {
+    display: flex;
+    width: 100%;
+
+}
+
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.66;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+/*-----------------------------------------------*/
+
+header {
+    /*    background-color: #F0F2F3   ;*/
+    background-color: #EDEDED;
+
+    height: 40px;
+    margin-bottom: 0;
+}
+
+#logo {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 1.5;
+    text-shadow: 2px 5px #ccc;
+    padding: 0px;
+    margin: 0;
+    float: left;
+}
+
+#buttonContainer {
+    width: 400px;
+    margin: 0px auto;
+    padding: 8px;
+}
+
+.toggleButton {
+    float: left;
+    margin: 0;
+    padding: 0px 10px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #EDEDED;
+    border-right: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+
+button:focus{
+    outline: 0;
+}
+
+textarea:focus {
+    outline: 0;
+    background-color:white;
+}
+
+.hover {
+    background-color: #E3E3E3;
+
+}
+
+.active {
+    background-color: #E8F2FF;
+    border-right: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+}
+
+#html {
+    border-left: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.clear {
+    clear: both;
+    content: "";
+}
+
+#live {
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 93vh;
+    padding: 30px 10px;
+    margin: 0;
+    line-height: 1.8;
+    border: none;
+    display: none;
+    color: #686868;
+    background-color: #F7F7F7;
+}
+iframe{
+    display: none;
+    border-top: none;
+    height: 93vh;
+}
+.textArea2{
+    border-left: 1px solid #ccc;
+}
+/*
+#container span {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color: #33AAFE;
+    text-decoration: underline;
+
+}
+*/
+#htmlArea {
+    display: block;
+}
