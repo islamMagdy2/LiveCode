@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>myCoder</title>
+    <meta charset="utf-8">
+    <meta name="coder" content="LIve coder for web designing">
+    <!--    <link rel="stylesheet" href="jquery-ui-1.12.1/jquery-ui.css">-->
+    <link rel="stylesheet" href="main.css">
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <!--    <script src="jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>-->
+    <script src="tappy.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div>
+        <header>
+            <div id="logo">
+                <h1>LiveCoder</h1>
+            </div>
+            <div id="buttonContainer">
+                <button class="toggleButton active" id="html">HTML</button>
+                <button class="toggleButton" id="css">CSS</button>
+                <button class="toggleButton" id="js">JS</button>
+                <button class="toggleButton" id="live">Live</button>
+            </div>
+        </header>
+        <div class="clear"> </div>
+        <!--
+        <div class="row headers">
+            <div class="col-3">
+                <span>Html</span>
+            </div>
+
+        </div>
+-->
+        <div id="container" class="row">
+            <textarea spellcheck="false" class="col-12" id="htmlArea"><!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>JS Bin</title>
+    </head>
+    <body>
+    </body>
+</html> 
+            </textarea>
+            <textarea spellcheck="false" class="col-3" id="cssArea">Hello CSS</textarea>
+            <textarea spellcheck="false" class="col-3" id="jsArea">Hello js</textarea>
+            <iframe class="col-3" id="liveArea"></iframe>
+        </div>
+    </div>
+
+    <script src="myscript.js" type="text/javascript">
+    </script>
+</body>
+
+
+</html>
